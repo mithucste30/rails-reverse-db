@@ -7,9 +7,9 @@ require "reverse_scaffold/version"
 Gem::Specification.new do |s|
   s.name        = "reverse_scaffold"
   s.version     = ReverseScaffold::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
+  s.authors     = ["Chris McKnight"]
+  s.email       = ["cmcknight@immense.net"]
+  s.homepage    = "http://christophermcknight.us"
   s.summary     = "TODO: Summary of ReverseScaffold."
   s.description = "TODO: Description of ReverseScaffold."
 
@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 3.2.6"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "mysql2"
 end
