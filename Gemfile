@@ -9,6 +9,11 @@ gemspec
 gem "jquery-rails"
 gem 'sqlite3'
 gem 'mysql2'
+gem 'rspec-rails'
+gem 'capybara'
+gem 'guard-rspec'
+gem 'guard-spork'
+gem 'growl'
 
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or
