@@ -1,6 +1,6 @@
 development:
   adapter: mysql2
-  database: reverse_scaffold_dev
+  database: rails_reverse_db_dev
   username: root
   password: root
 
@@ -9,12 +9,12 @@ development:
 # Do not set this db to the same as development or production.
 test:
   adapter: mysql2
-  database: reverse_scaffold_test
+  database: rails_reverse_db_test
   username: root
   password: root
 
 production:
   adapter: mysql2
-  database: reverse_scaffold
+  database: rails_reverse_db
   username: root
   password: root
