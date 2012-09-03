@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_reverse_db (0.0.1)
+    rails_reverse_db (0.0.1.alpha)
       mysql2
       rails (~> 3.2.6)
       railties
