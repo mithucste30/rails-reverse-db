@@ -17,12 +17,9 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.6"
-
-  s.add_development_dependency "rspec-rails"
-  s.add_development_dependency "capybara"
-  s.add_development_dependency "guard-rspec"
-  s.add_development_dependency "guard-spork"
+  
   s.add_runtime_dependency "sqlite3"
   s.add_runtime_dependency "mysql2"
+  s.add_runtime_dependency "pg"
   s.add_runtime_dependency "railties"
 end
