@@ -9,6 +9,5 @@ before_script:
   - mysql -e 'create database rails_reverse_db_test;'
   
 gemfile:
-  # - gemfiles/rails3_0.gemfile
   - gemfiles/rails3_1.gemfile
   - gemfiles/rails3_2.gemfile
