@@ -9,6 +9,9 @@ module RailsReverseDb
     
     def initialize(options = {})
       @pk = options[:pk] || 'id'
+      @models = options[:models] || false
+      @exclude = options[:exclude] || false
+      @interactive = options[:i] || false
       environments = [Rails.env]
 
       configurations = ActiveRecord::Base.configurations.values_at(*environments)
