@@ -24,7 +24,6 @@ module RailsReverseDb
 
     def generate
       tables = self.get_tables
-      puts tables.inspect
       tables.each do |table|
         if RailsReverseDbHelper::RailsReverseDbHelper.test_singularity(table)
           # already singular
