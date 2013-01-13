@@ -17,8 +17,16 @@ By default this will run `rails generate scaffold TableName column:string`
 
 ## Copyright
 
-Copyright (c) 2012 Chris McKnight and Anthony Heukmes (2009). Licensed under the MIT License
+Copyright (c) 2012-2013 Chris McKnight and [Anthony Heukmes](https://github.com/ahe/) (2009-2013). Licensed under the MIT License
 
-## Contributions
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Thanks
 
 Inspired by and uses a little modified code from [Anthony Heukmes](https://github.com/ahe/) [Reverse Scaffold Script](https://github.com/ahe/reverse_scaffold)
