@@ -4,11 +4,11 @@ desc "Generate migrations, models, or scaffold from tables in database"
 task :reverse_engineer => :environment do
   options = { }
   options[:pk] ||= ENV['pk']
-  options[:models] ||= ENV['models']
-  options[:exclude] ||= ENV['exclude']
+  options[:models] = ENV['models'] || []
+  options[:exclude] = ENV['exclude'] || []
   options[:i] ||= ENV['i']
     
-  if (not options[:models].empty?) and (not options[:exclude].empty?)
+  if (!options[:models].empty?) and (!options[:exclude].empty?)
     raise "The models and exclude arguments should not be used in conjunction with each other. Use one or the other."
   end
   
