@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_reverse_db (0.0.7)
+    rails_reverse_db (0.0.8)
       mysql2
       pg
       rails (>= 3.2.0)
