@@ -11,9 +11,9 @@ describe RailsReverseDb do
   
   describe "reverse engineer article table" do
     it "should create scaffolding for Article" do
-      pending "add some examples to (or delete) #{__FILE__}"
       g = RailsReverseDb::RailsReverseDb.new
       g.generate
+      skip
     end
   end
 end
