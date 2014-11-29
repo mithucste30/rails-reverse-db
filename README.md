@@ -1,4 +1,4 @@
-# Rails Reverse DB [![Build Status](https://secure.travis-ci.org/cmckni3/rails_reverse_db.png)](http://travis-ci.org/cmckni3/rails_reverse_db) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/cmckni3/rails_reverse_db)
+# Rails Reverse DB [![Gem Version](https://badge.fury.io/rb/rails_reverse_db.png)](http://badge.fury.io/rb/rails_reverse_db) [![Build Status](https://secure.travis-ci.org/cmckni3/rails_reverse_db.png)](http://travis-ci.org/cmckni3/rails_reverse_db) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/cmckni3/rails_reverse_db)
 
 Gem for reverse engineering an existing database using ActiveRecord
 
