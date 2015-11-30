@@ -1,6 +1,7 @@
 .bundle/
-/bin/*
-log/*.log
+/bin/
+*.log
+/rdoc/
 pkg/
 spec/dummy/db/*.sqlite3
 spec/dummy/log/*.log

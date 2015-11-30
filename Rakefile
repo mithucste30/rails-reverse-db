@@ -15,8 +15,7 @@ end
 RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title    = 'RailsReverseDb'
-  rdoc.options << '--line-numbers'
-  rdoc.rdoc_files.include('README.rdoc')
+  rdoc.options << %w(--line-numbers --markup=markdown --main=README.md).join(' ')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
