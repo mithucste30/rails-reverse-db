@@ -43,7 +43,7 @@ module RailsReverseDb
         
         # Credit to Anthony Heukmes for the next few lines
         # Modified to work with my gem
-        eval "class #{singular} < ActiveRecord::Base; set_table_name '#{table}' end"
+        eval "class #{singular} < ActiveRecord::Base; self.table_name = '#{table}' end"
         klass = eval "#{singular}"
         reverse_command = "rails generate scaffold #{singular} "
         klass.columns.each do |col|
