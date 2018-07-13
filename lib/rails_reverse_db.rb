@@ -45,7 +45,7 @@ module RailsReverseDb
         # Modified to work with my gem
         eval "class #{singular} < ActiveRecord::Base; self.table_name = '#{table}' end"
         klass = eval "#{singular}"
-        reverse_command = "rails generate scaffold #{singular} "
+        reverse_command = "rails generate scaffold #{singular} --skip-migration"
         klass.columns.each do |col|
           reverse_command << col.name + ":" + col.type.to_s + " " unless col.name == @pk
         end
